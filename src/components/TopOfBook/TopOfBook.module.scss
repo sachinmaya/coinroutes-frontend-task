@@ -1,0 +1,23 @@
+.headWrap {
+  @apply grid grid-cols-2 gap-8;
+  .box {
+    @apply border border-[#ccc];
+    .head {
+      @apply bg-[#009fcf] p-4 text-white text-[1.2rem];
+    }
+    .body {
+      @apply flex justify-between gap-4 p-4;
+      p {
+        @apply font-bold text-[1.1rem];
+      }
+      span {
+        @apply text-[#605f5f];
+      }
+    }
+  }
+  .box2 {
+    .head {
+      @apply bg-[#fcb146];
+    }
+  }
+}

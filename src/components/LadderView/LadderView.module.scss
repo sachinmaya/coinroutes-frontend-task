@@ -1,0 +1,42 @@
+.orderBook {
+  @apply bg-[#121b22] text-white p-4;
+  h2 {
+    @apply text-[2rem] font-semibold text-center;
+  }
+  .body {
+    @apply bg-black border border-[#3f3d3d] flex flex-col gap-2;
+    .tableBody {
+      @apply max-h-[300px] overflow-x-hidden overflow-y-scroll;
+      .ask {
+        tr {
+          th {
+            @apply border-t border-b border-[#3f3d3d];
+          }
+        }
+      }
+    }
+    table {
+      @apply w-full;
+      tr {
+        th {
+          @apply p-2 w-[33%];
+        }
+        td {
+          @apply text-center;
+        }
+      }
+    }
+    .aggregation {
+      @apply border-t border-b border-[#3f3d3d] p-4 flex gap-4 justify-end items-center;
+      span {
+        @apply text-[1.2rem] font-semibold;
+      }
+      select {
+        @apply border border-[#ccc] p-2 text-black;
+        option {
+          @apply text-black;
+        }
+      }
+    }
+  }
+}

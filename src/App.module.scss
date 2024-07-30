@@ -1,0 +1,8 @@
+.customContainer {
+  @apply flex  flex-col gap-8 max-w-[800px] ml-auto mr-auto px-4;
+  h1 {
+    @apply text-center font-bold mt-8;
+    font-size: 3.2em;
+    line-height: 1.1;
+  }
+}

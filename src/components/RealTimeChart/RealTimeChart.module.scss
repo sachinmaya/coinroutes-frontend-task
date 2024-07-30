@@ -1,0 +1,12 @@
+.chartWrap {
+  @apply border border-[#ccc];
+  .boxHead {
+    @apply border-b border-[#ccc] bg-[#ccc]/30 p-4;
+    h2 {
+      @apply text-[1.3rem];
+    }
+  }
+  .bodyBox {
+    @apply flex flex-col gap-8 p-4 mt-4;
+  }
+}

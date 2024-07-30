@@ -1,0 +1,6 @@
+.currencySelector {
+  @apply flex justify-center;
+  select {
+    @apply border border-[#ccc] p-2;
+  }
+}
